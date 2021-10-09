@@ -1,0 +1,27 @@
+[package]
+name = "ura"
+version = "0.1.0"
+authors = ["CGair23 <chengeair23@sjtu.edu.cn>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow          = { version = "1.0.26" }
+structopt       = { version = "0.3" }
+env_logger      = { version = "0.7.1" }
+http            = { version = "0.2" }
+webpki-roots    = { version = "0.21.0" }
+webpki          = { version = "0.21.0" }
+rustls          = { version = "0.19.0", features = ["dangerous_configuration"] }
+yasna           = { version = "0.3.0", features = ["bit-vec", "num-bigint", "chrono"] }
+pem             = "0.7.0"
+uuid            = { version = "0.8.1", features = ["v4"] }
+chrono          = { version = "0.4.6" }
+serde_json      = { version = "1.0.39" }
+serde           = { version = "1.0.92", features = ["derive"] }
+base64          = { version = "0.13.0" }
+hex             = { version = "0.4.0" }
+bit-vec         = { version = "0.6.1", default-features = false }
+thiserror       = { version = "1.0.9" }
+num-bigint      = { version = "0.2.2" }
