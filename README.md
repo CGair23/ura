@@ -1,7 +1,7 @@
 # Universe01 Remote Attestation (ura)
 ## Attest
 
-Here is an example to display the attestation report from a Teaclave service.
+Here is an example to display the attestation report from a Tee service.
 
 ```bash
 $ ./ura attest --address localhost:8888 
